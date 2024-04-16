@@ -1,0 +1,59 @@
+.container {
+    margin-top: 20px;
+}
+
+.input {
+    display: none;
+}
+
+.imageContainer {
+    margin-top: 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* tabbedImages.module.css */
+
+.tabbedImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.tab.active {
+    background-color: #ccc;
+}
+
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image {
+    margin: 10px;
+}
+
+.image img {
+    max-width: 256px;
+    /* Фіксована ширина зображень */
+}
